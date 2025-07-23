@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+
   <header>
     <h1>Shivdharmavirsingh</h1>
     <p>Future UFC Champion</p>
@@ -30,6 +31,7 @@
     <p>I want to fight in the UFC, represent my country, and prove that with will and training, anyone can make it happen.</p>
   </section>
 
+  <!-- ✅ ✅ ✅ ONLY ONE FORM — PROPERLY CONFIGURED -->
   <section class="contact">
     <h2>👊 Want to Challenge Me?</h2>
     <form id="fightForm">
@@ -45,11 +47,11 @@
     <p>Made by Shivdharmavirsingh 🥋 | UFC Dreamer</p>
   </footer>
 
-  <!-- EmailJS scripts -->
+  <!-- ✅ EmailJS Script -->
   <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
   <script>
     (function(){
-      emailjs.init("PBZgkxo9MVfHDn0TM"); // ✅ Tera actual public key
+      emailjs.init("PBZgkxo9MVfHDn0TM"); // ✅ Your real public key
     })();
 
     document.getElementById("fightForm").addEventListener("submit", function(e) {
@@ -63,5 +65,6 @@
         });
     });
   </script>
+
 </body>
 </html>

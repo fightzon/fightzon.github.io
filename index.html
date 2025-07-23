@@ -84,13 +84,13 @@
   <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
 <script>
   (function(){
-    emailjs.init("YOUR_PUBLIC_KEY"); // 👈 Replace this with your real public key
+    emailjs.init("PBZgkxo9MVfHDn0TM"); // 👈 Replace this with your real public key
   })();
 
   document.getElementById("fightForm").addEventListener("submit", function(e) {
     e.preventDefault();
 
-    emailjs.sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", this)
+    emailjs.sendForm("service_2qcdn4m", "template_bvsjblp", this)
       .then(function() {
         alert("🔥 Fight request sent successfully!");
       }, function(error) {

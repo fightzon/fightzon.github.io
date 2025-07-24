@@ -1,1 +1,94 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shivdharmavirsingh | UFC Dream</title>
+  <meta name="google-site-verification" content="vHiPKzUC7dpShm6FH1fFdFRQRh73FNLlOHFhQqIFLp0" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>  <header>
+    <h1>Shivdharmavirsingh</h1>
+    <p>Future UFC Champion</p>
+  </header>  <section class="hero">
+    <img src="Picsart_24-10-26_15-31-10-153.jpg" alt="fighter photo" class="profile-pic" />
+    <h2>My UFC Journey</h2>
+    <p>I am chasing my dream to become the next UFC world champion. This is my journey, my fight, my fire.</p>
+  </section>  <section class="gallery">
+    <h2>Gallery</h2>
+    <img src="IMG-20250413-WA0000.jpg" alt="Gallery Image" />
+  </section>  <section class="dream">
+    <h2>My Dream</h2>
+    <p>I want to fight in the UFC, represent my country, and prove that with will and training, anyone can make it happen.</p>
+  </section>  <section class="contact">
+    <h2>👊 Want to Challenge Me?</h2>
+    <form id="fightForm">
+      <input type="text" name="user_name" placeholder="Your Name" required />
+      <input type="text" name="weight" placeholder="Weight Category" required />
+      <input type="text" name="contact" placeholder="Instagram or Contact" required />
+      <textarea name="message" placeholder="Message?" rows="4" required></textarea>
+      <button type="submit">Send Fight Request</button>
+    </form>
+  </section>  <footer>
+    <div class="footer-container">
+      <div class="footer-section">
+        <h4>Product</h4>
+        <ul>
+          <li><a href="#">Fighter Gear</a></li>
+          <li><a href="#">Training Plans</a></li>
+          <li><a href="#">Fight Bookings</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Solutions</h4>
+        <ul>
+          <li><a href="#">Online Coaching</a></li>
+          <li><a href="#">Fight Management</a></li>
+          <li><a href="#">Promotions</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Learn</h4>
+        <ul>
+          <li><a href="#">My UFC Journey</a></li>
+          <li><a href="#">Diet & Routine</a></li>
+          <li><a href="#">Behind the Scenes</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Support</h4>
+        <ul>
+          <li><a href="#">Contact Me</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Fight Requests</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#">About Me</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li><a href="#">Terms</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-social">
+      <img src="facebook.png" alt="Facebook" />
+      <img src="youtube.png" alt="YouTube" />
+      <img src="instagram.png" alt="Instagram" />
+    </div>
+    <div class="footer-bottom">
+      &copy; 2025 Shivdharmavirsingh | UFC Dreamer
+    </div>
+  </footer>  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>  <script>
+    (function() {
+      emailjs.init("PBZgkxo9MVfHDn0TM");
+    })();
 
+    document.getElementById("fightForm").addEventListener("submit", function(e) {
+      e.preventDefault();
+      emailjs.sendForm("service_2qcdn4m", "template_8k60v8r", this)
+        .then(() => alert("🔥 Fight request sent successfully!"))
+        .catch(error => alert("❌ Failed to send request.\n" + error.text));
+    });
+  </script></body>
+  </html>

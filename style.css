@@ -55,6 +55,61 @@ form button {
   cursor: pointer;
 }
 
+.footer {
+  background-color: #111;
+  color: #fff;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+}
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.footer-section {
+  flex: 1;
+  min-width: 160px;
+  margin: 10px;
+}
+.footer-section h4 {
+  color: gold;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+.footer-section li {
+  margin: 6px 0;
+}
+.footer-section a {
+  color: #ccc;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.footer-section a:hover {
+  color: gold;
+}
+.footer-social {
+  text-align: center;
+  margin: 20px 0;
+}
+.footer-social img {
+  width: 30px;
+  margin: 0 8px;
+  filter: brightness(0) invert(1);
+  transition: 0.3s;
+}
+.footer-social img:hover {
+  filter: brightness(1) saturate(10) hue-rotate(30deg);
+}
+.footer-bottom {
+  text-align: center;
+  color: #777;
+  font-size: 13px;
+  margin-top: 20px;
+  }
 footer {
   background-color: #0a0a0a;
   padding: 20px;

@@ -47,15 +47,67 @@
     </form>
   </section>
 
-  <footer>
-    <p>Made by Shivdharmavirsingh 🥋 | UFC Dreamer</p>
+  <!-- ✅ NEW UFC Style Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-section">
+        <h4>Product</h4>
+        <ul>
+          <li><a href="#">Fighter Gear</a></li>
+          <li><a href="#">Training Plans</a></li>
+          <li><a href="#">Fight Bookings</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Solutions</h4>
+        <ul>
+          <li><a href="#">Online Coaching</a></li>
+          <li><a href="#">Fight Management</a></li>
+          <li><a href="#">Promotions</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Learn</h4>
+        <ul>
+          <li><a href="#">My UFC Journey</a></li>
+          <li><a href="#">Diet & Routine</a></li>
+          <li><a href="#">Behind the Scenes</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Support</h4>
+        <ul>
+          <li><a href="#">Contact Me</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Fight Requests</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#">About Me</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li><a href="#">Terms</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-social">
+      <a href="#"><img src="icons/facebook.png" alt="Facebook"></a>
+      <a href="#"><img src="icons/youtube.png" alt="YouTube"></a>
+      <a href="#"><img src="icons/instagram.png" alt="Instagram"></a>
+      <a href="#"><img src="icons/tiktok.png" alt="TikTok"></a>
+      <a href="#"><img src="icons/x.png" alt="Twitter"></a>
+    </div>
+
+    <p class="footer-bottom">© 2025 Shivdharmavirsingh | UFC Dreamer</p>
   </footer>
 
   <!-- ✅ EmailJS Script -->
   <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
   <script>
     (function(){
-      emailjs.init("PBZgkxo9MVfHDn0TM"); // ✅ Your real public key
+      emailjs.init("PBZgkxo9MVfHDn0TM");
     })();
 
     document.getElementById("fightForm").addEventListener("submit", function(e) {

@@ -1,1 +1,124 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #0f0f0f;
+  color: #fff;
+  text-align: center;
+}
 
+header {
+  background-color: #1c1c1c;
+  padding: 30px;
+}
+
+.hero {
+  padding: 40px 20px;
+}
+
+.profile-pic {
+  width: 200px;
+  border-radius: 100px;
+  box-shadow: 0 0 20px red;
+}
+
+.gallery img {
+  width: 200px;
+  margin: 10px;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
+.dream, .contact {
+  padding: 40px 20px;
+  background-color: #1a1a1a;
+  margin: 20px 0;
+}
+
+form input, form textarea {
+  display: block;
+  width: 80%;
+  margin: 10px auto;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+form button {
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #0a0a0a;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+  color: #fff;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: left;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 150px;
+  margin: 10px;
+}
+
+.footer-section h4 {
+  color: gold;
+  font-size: 16px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section li {
+  margin: 6px 0;
+}
+
+.footer-section a {
+  color: #ccc;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer-section a:hover {
+  color: gold;
+}
+
+.footer-social {
+  margin: 20px 0;
+}
+
+.footer-social img {
+  width: 30px;
+  margin: 0 8px;
+  filter: brightness(0) invert(1);
+  transition: 0.3s;
+}
+
+.footer-social img:hover {
+  filter: brightness(1) saturate(10) hue-rotate(30deg);
+}
+
+.footer-bottom {
+  text-align: center;
+  color: #777;
+  font-size: 13px;
+  margin-top: 20px;
+  }

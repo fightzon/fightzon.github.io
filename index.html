@@ -1,4 +1,5 @@
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -6,20 +7,30 @@
   <meta name="google-site-verification" content="vHiPKzUC7dpShm6FH1fFdFRQRh73FNLlOHFhQqIFLp0" />
   <link rel="stylesheet" href="style.css" />
 </head>
-<body>  <header>
+<body>
+
+  <header>
     <h1>Shivdharmavirsingh</h1>
     <p>Future UFC Champion</p>
-  </header>  <section class="hero">
+  </header>
+
+  <section class="hero">
     <img src="Picsart_24-10-26_15-31-10-153.jpg" alt="fighter photo" class="profile-pic" />
     <h2>My UFC Journey</h2>
     <p>I am chasing my dream to become the next UFC world champion. This is my journey, my fight, my fire.</p>
-  </section>  <section class="gallery">
+  </section>
+
+  <section class="gallery">
     <h2>Gallery</h2>
     <img src="IMG-20250413-WA0000.jpg" alt="Gallery Image" />
-  </section>  <section class="dream">
+  </section>
+
+  <section class="dream">
     <h2>My Dream</h2>
     <p>I want to fight in the UFC, represent my country, and prove that with will and training, anyone can make it happen.</p>
-  </section>  <section class="contact">
+  </section>
+
+  <section class="contact">
     <h2>👊 Want to Challenge Me?</h2>
     <form id="fightForm">
       <input type="text" name="user_name" placeholder="Your Name" required />
@@ -28,7 +39,21 @@
       <textarea name="message" placeholder="Message?" rows="4" required></textarea>
       <button type="submit">Send Fight Request</button>
     </form>
-  </section>  <footer>
+  </section>
+
+  <!-- ✅ NEW: Weight Category Checker Section -->
+  <section class="weight-checker">
+    <h2>🏋️‍♂️ Know Your UFC Weight Category</h2>
+    <input type="number" id="userWeight" placeholder="Enter your weight in KG" />
+    <br />
+    <button onclick="checkCategory()">Check Category</button>
+    <div id="resultPopup" class="popup hidden">
+      <span id="categoryResult"></span>
+      <button onclick="closePopup()">Close</button>
+    </div>
+  </section>
+
+  <footer>
     <div class="footer-container">
       <div class="footer-section">
         <h4>Product</h4>
@@ -79,7 +104,11 @@
     <div class="footer-bottom">
       &copy; 2025 Shivdharmavirsingh | UFC Dreamer
     </div>
-  </footer>  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>  <script>
+  </footer>
+
+  <!-- ✅ Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+  <script>
     (function() {
       emailjs.init("PBZgkxo9MVfHDn0TM");
     })();
@@ -90,5 +119,44 @@
         .then(() => alert("🔥 Fight request sent successfully!"))
         .catch(error => alert("❌ Failed to send request.\n" + error.text));
     });
-  </script></body>
-  </html>
+
+    // ✅ UFC Category Checker Script
+    function checkCategory() {
+      const weight = parseFloat(document.getElementById("userWeight").value);
+      const resultBox = document.getElementById("resultPopup");
+      const categoryText = document.getElementById("categoryResult");
+
+      let category = "";
+
+      if (weight < 1 || isNaN(weight)) {
+        category = "⚠️ Please enter a valid weight!";
+      } else if (weight < 52) {
+        category = "❌ No Category Exists Below 52kg";
+      } else if (weight <= 56) {
+        category = "🥇 Flyweight (52 - 56 kg)";
+      } else if (weight <= 61) {
+        category = "🥈 Bantamweight (56 - 61 kg)";
+      } else if (weight <= 66) {
+        category = "🥉 Featherweight (62 - 66 kg)";
+      } else if (weight <= 70) {
+        category = "💪 Lightweight (67 - 70 kg)";
+      } else if (weight <= 77) {
+        category = "🔥 Welterweight (71 - 77 kg)";
+      } else if (weight <= 84) {
+        category = "⚔️ Middleweight (77 - 84 kg)";
+      } else if (weight <= 93) {
+        category = "🛡️ Light Heavyweight (85 - 93 kg)";
+      } else {
+        category = "🥵 Heavyweight (94+ kg)";
+      }
+
+      categoryText.innerText = category;
+      resultBox.classList.remove("hidden");
+    }
+
+    function closePopup() {
+      document.getElementById("resultPopup").classList.add("hidden");
+    }
+  </script>
+</body>
+</html>

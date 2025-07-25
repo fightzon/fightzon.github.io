@@ -122,3 +122,53 @@ footer {
   font-size: 13px;
   margin-top: 20px;
   }
+/* New UFC Category Checker Section */
+.weight-checker {
+  padding: 40px 20px;
+  background-color: #121212;
+  margin: 20px 0;
+  border-top: 2px solid red;
+  border-bottom: 2px solid red;
+}
+
+.weight-checker h2 {
+  color: gold;
+  margin-bottom: 10px;
+}
+
+.weight-checker input {
+  padding: 10px;
+  width: 60%;
+  border-radius: 5px;
+  border: none;
+  margin-top: 15px;
+}
+
+.weight-checker button {
+  margin-top: 15px;
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.popup {
+  margin-top: 20px;
+  background-color: #1c1c1c;
+  padding: 15px;
+  border-radius: 8px;
+  display: inline-block;
+  border: 1px solid gold;
+}
+
+.popup.hidden {
+  display: none;
+}
+
+.popup span {
+  color: white;
+  display: block;
+  margin-bottom: 10px;
+}

@@ -44,7 +44,7 @@ and be a part of something real.
     </form>
   </section>
 
-  <!-- ✅ NEW: Weight Category Checker Section -->
+  <!-- NEW: Weight Category Checker Section -->
   <section class="weight-checker">
     <h2>Your weight category?</h2>
     <input type="number" id="userWeight" placeholder="Enter your weight in KG" />
@@ -110,7 +110,7 @@ and be a part of something real.
     </div>
   </footer>
 
-  <!-- ✅ Scripts -->
+  <!-- Scripts -->
   <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
   <script>
     (function() {
@@ -120,11 +120,11 @@ and be a part of something real.
     document.getElementById("fightForm").addEventListener("submit", function(e) {
       e.preventDefault();
       emailjs.sendForm("service_2qcdn4m", "template_8k60v8r", this)
-        .then(() => alert("🔥 Fight request sent successfully!"))
-        .catch(error => alert("❌ Failed to send request.\n" + error.text));
+        .then(() => alert(" Fight request sent successfully!"))
+        .catch(error => alert("Failed to send request.\n" + error.text));
     });
 
-    // ✅ UFC Category Checker Script
+    //  UFC Category Checker Script
     function checkCategory() {
       const weight = parseFloat(document.getElementById("userWeight").value);
       const resultBox = document.getElementById("resultPopup");
@@ -133,25 +133,25 @@ and be a part of something real.
       let category = "";
 
       if (weight < 1 || isNaN(weight)) {
-        category = "⚠️ Please enter a valid weight!";
+        category = "Please enter a valid weight!";
       } else if (weight < 52) {
-        category = "❌ No Category Exists Below 52kg";
+        category = " No Category Exists Below 52kg";
       } else if (weight <= 56) {
-        category = "🥇 Flyweight (52 - 56 kg)";
+        category = "Flyweight (52 - 56 kg)";
       } else if (weight <= 61) {
-        category = "🥈 Bantamweight (56 - 61 kg)";
+        category = "Bantamweight (56 - 61 kg)";
       } else if (weight <= 66) {
-        category = "🥉 Featherweight (62 - 66 kg)";
+        category = "Featherweight (62 - 66 kg)";
       } else if (weight <= 70) {
-        category = "💪 Lightweight (67 - 70 kg)";
+        category = "Lightweight (67 - 70 kg)";
       } else if (weight <= 77) {
-        category = "🔥 Welterweight (71 - 77 kg)";
+        category = "Welterweight (71 - 77 kg)";
       } else if (weight <= 84) {
-        category = "⚔️ Middleweight (77 - 84 kg)";
+        category = "Middleweight (77 - 84 kg)";
       } else if (weight <= 93) {
-        category = "🛡️ Light Heavyweight (85 - 93 kg)";
+        category = "Light Heavyweight (85 - 93 kg)";
       } else {
-        category = "🥵 Heavyweight (94+ kg)";
+        category = "Heavyweight (94+ kg)";
       }
 
       categoryText.innerText = category;

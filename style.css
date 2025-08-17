@@ -26,6 +26,7 @@ header {
   margin: 10px;
   border-radius: 10px;
   transition: transform 0.3s;
+  text-align: left;
 }
 .gallery img:hover {
   transform: scale(1.05);

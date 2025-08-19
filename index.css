@@ -2,10 +2,10 @@ body {
 
   display: flex;
   align-items: center;
-  background: #Red;
+  background: #FF0000;
 }
 
-.wrapper {
+div {
 
     position: relative;
     width:300px;

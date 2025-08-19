@@ -3,11 +3,12 @@ body {
   display: flex;
   align-items: center;
   background: #FF0000;
+  postion:center;
 }
 
 div {
 
-    position: relative;
+    position:center;
     width:300px;
     height:400px;
     background: #FF0000;

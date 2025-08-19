@@ -16,11 +16,19 @@
     
   <input type="text" name="profile_name"
     placeholder="your name" required>
-  <input type="number" name="password"
+  <input type="password" name="password"
     placeholder="password" required>
   <button onclick=login(home.html)>login
   </button>
+    
+   <lable> 
+     <input type="checkbox"remember me >
+   </lable>
 
+    <p>
+      dont have an account ? <a href="signup" class="signupbtn-link">signup</a>
+    </p>
+    
   </form>
     <script>
      function login()

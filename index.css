@@ -1,1 +1,16 @@
+body {
 
+  display: flex;
+  align-items: center;
+  background: #0fff;
+}
+
+.wrapper {
+
+    position: relative;
+    width:300px;
+    height:400px;
+    background: #fff;
+    padding: 40px;
+    border-radius:10px;
+}

@@ -1,4 +1,4 @@
-head {
+header{
 
   display: flex;
   align-items: center;
@@ -6,12 +6,12 @@ head {
   postion:center;
 }
 
-form {
+section {
 
     position:center;
-    width:300px;
-    height:400px;
+    width:400px;
+    height:500px;
     background: #FF0000;
-    padding: 40px;
+    padding: 50px;
     border-radius:10px;
 }

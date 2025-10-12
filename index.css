@@ -4,7 +4,16 @@ section {
     position:center;
     width:400px;
     height:500px;
-    background: #FF0000;
-    padding: 50px;
-    border-radius:10px;
+    background: red;   
+}
+
+input {
+    background: cronsilk;
+    color:green;
+}
+
+button {
+    color:black;
+    background:white;
+    fontweight:bold
 }

@@ -11,8 +11,7 @@ input {
     background: cronsilk;
     color:green;
     position:center;
-    height:70px;
-    width:216px;
+    
 }
 
 button {
@@ -20,8 +19,7 @@ button {
     background:blue;
     fontweight:bold;
     position:center;
-    height:70px;
-    width:90px;
+    
     
 }
 header{

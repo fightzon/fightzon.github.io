@@ -3,6 +3,7 @@ div{
   padding:30px;
   color:red;
   background:black;
+  border-radius:15px;
 }
 h1{
   color:dark-teal;

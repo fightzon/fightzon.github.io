@@ -1,5 +1,5 @@
 
-section {
+div {
     position:center;
     width:100px;
     height:70px; 
@@ -7,10 +7,16 @@ section {
     border:red;
 }
 
-input {
+.login-container {
     background: cronsilk;
     color:green;
     position:center;
+    padding:30px;
+    box-shadow:0 4px 8px rgba(0,0,0,0.1)
+    text-align:center;
+    width:300px;
+    margin-top:100px;
+    border-radius:8px;
     
 }
 

@@ -27,7 +27,8 @@ footer {
     width: 100%;
     background-color: #f0f0f0; 
     padding: 10px 0;
-    /* clear: both; */
+    clear: both;
+    background: linear-gradient(135deg, #f0f4f8, #c8d0d8);
 }
 
 

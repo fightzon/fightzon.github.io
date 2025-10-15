@@ -19,3 +19,7 @@ header{
     font-weight:700;
     font-family:sans-serif;
 }
+footer{
+  clear:both;
+  width:100%;
+}

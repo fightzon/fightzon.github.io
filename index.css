@@ -5,6 +5,7 @@ div {
     height:70px; 
     color:grey;
     border:red;
+    text-align:center;
 }
 
 .login-container {
@@ -29,9 +30,16 @@ button {
     
 }
 header{
-    textalign:middle;
+    text-align:center;
     border:red;
     fontfamily:arial;
     letterspacing:normal;
     
+}
+
+form {
+    align-items:center;
+    flex-direction:column;
+    display:flex;
+  
 }

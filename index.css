@@ -21,26 +21,15 @@ body {
     background-color: #ffffff;
     padding: 40px;
     border-radius: 20px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     width: 300px;
 }
-.page-title { /* 'sportinoo • shiv' jaisa text */
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+.page-title {
+    font-family:sans-serif; 
     font-size: 32px;
     font-weight: 700;
     text-align: center;
     color: #333;
     margin-bottom: 20px;
-}
-input[type="text"], 
-input[type="password"] {
-    width: 100%;
-    padding: 12px 15px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    box-sizing: border-box;
-    font-size: 16px;
 }
 .login-button {
     width: 100%;
@@ -52,9 +41,4 @@ input[type="password"] {
     cursor: pointer;
     font-size: 18px;
     font-weight: bold;
-    transition: background-color 0.3s ease;
-}
-
-.login-button:hover {
-    background-color: #0056b3;
 }

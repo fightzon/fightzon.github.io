@@ -4,6 +4,26 @@
   border: 10px solid black;
   height:200px;
   width:200px;
+
+}
+
+input{
+  display:inline;
+  border-radius:2px;
+  color:yellow;
+  box-shadow:2px 0 ;
+  background-color:yellow;
   
+}
+
+header{
+  width:100%;
+  height:100px;
+  background-color:black;
   
+}
+
+h1{
+  display:inline;
+  padding-right:10px;
 }

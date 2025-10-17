@@ -1,6 +1,6 @@
 .contentbox {
-  display:inline-block;
-  background:black;
+  display:inline;
+  background-color:red;
   border: 10px solid black;
   height:200px;
   width:200px;

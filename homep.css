@@ -1,5 +1,5 @@
 .contentbox {
-  display:inline;
+  display:block;
   background-color:red;
   border: 10px solid black;
   height:200px;
@@ -26,6 +26,7 @@ header{
 h1{
   display:inline;
   padding-right:10px;
+  font-size:normal;
 }
 
 body{

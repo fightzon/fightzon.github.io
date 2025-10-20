@@ -2,10 +2,10 @@
   display:block;
   background-color:red;
   border: 10px solid black;
-  height:200px;
-  width:200px;
+  height:normal;
+  width:normal;
   margin:10px;
-
+  align-items: center;
 }
 
 input{
@@ -36,5 +36,15 @@ body{
   height:100vh;
   width:100%;
   padding: 0;
+  
+}
+
+content{
+  align-items:center;
+
+}
+
+footer{
+
   
 }

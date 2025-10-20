@@ -28,3 +28,11 @@ h1{
   display:inline;
   padding-right:10px;
 }
+
+body{
+  background: linear-gradient(135deg, #f0f4f8, #c8d0d8);
+  height:100vh;
+  width:100%;
+  padding: 0;
+  
+}

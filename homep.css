@@ -14,12 +14,13 @@ input{
   color:none;
   box-shadow:2px 0 ;
   background-color:white;
-  
+  align-items:top-right;  
 }
 
 header{
   width:100%;
   height:100px;
+  display:inline-block;
   
 }
 

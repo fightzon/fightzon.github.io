@@ -72,4 +72,14 @@ footer{
   position: fixed;
   background-color:grey;
   color:black;
+  display:flex;
+  flex-direction:row;
+  
+}
+
+.home{
+  position:fixed;
+  align-items:bottom-right;
+  border-sizing:border-box;
+  
 }

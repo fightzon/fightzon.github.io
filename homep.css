@@ -2,8 +2,8 @@
   display:block;
   background-color:red;
   border: 1px solid grey;
-  height:normal;
-  width:normal;
+  height:200px;
+  width:100%;
   margin:10px;
   align-items: center;
 }

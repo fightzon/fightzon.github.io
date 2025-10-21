@@ -61,22 +61,15 @@ body {
 
 }
 
-#footerc {
-  align-items:bottom;
-  background-color:grey;
-  color:black;
-  display:flex;
-  flex-direction:row;
-  background-height:35px;  
-}
-
 .home {
   align-items:bottom-right;
   border-sizing:border-box;
+  width:50%;
   
 }
 
 .profile {
   align-items:bottom-left;
   border-sizing:border-box;
+  width:50%;
 }

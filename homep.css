@@ -65,7 +65,6 @@ body {
 
 #footerc {
   align-items:bottom;
-  position: fixed;
   background-color:grey;
   color:black;
   display:flex;
@@ -84,5 +83,5 @@ body {
 
   position:relative;
   align-items:bottom-left;
-  
+  border-sizing:border-box;
 }

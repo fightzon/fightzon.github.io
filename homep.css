@@ -1,4 +1,4 @@
-.contentbox {
+.contentbox1 {
   display:block;
   background-color:red;
   border: 1px solid grey;
@@ -7,6 +7,26 @@
   margin:10px;
   align-items: center;
 }
+
+ .contentbox2 {
+  display:block;
+  background-color:red;
+  border: 1px solid grey;
+  height:200px;
+  width:100%;
+  margin:10px;
+  align-items: center;
+ }
+
+ .contentbox3 {
+  display:block;
+  background-color:red;
+  border: 1px solid grey;
+  height:200px;
+  width:100%;
+  margin:10px;
+  align-items: center;
+ }
 
 input{
   display:inline;
@@ -48,6 +68,8 @@ body{
 }
 
 footer{
-
-  
+  align-items:bottom;
+  position: fixed;
+  background-color:grey;
+  color:black;
 }

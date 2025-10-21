@@ -2,7 +2,7 @@
   display:block;
   background-color:red;
   border: 1px solid grey;
-  height:100px;
+  height:150px;
   width:100%;
   margin:10px;
   align-items: center;
@@ -14,7 +14,7 @@
    display:block;
    background-color:red;
    border: 1px solid grey;
-   height:50%;
+   height:150px;
    width:100%;
    margin:10px;
    align-items: center;

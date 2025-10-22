@@ -64,15 +64,19 @@ body {
 
 }
 
+#footerc {
+  display:flex;
+  
+  
+}
+
 .home {
-  align-items:bottom-right;
   border-sizing:border-box;
   width:50%;
   
 }
 
 .profile {
-  align-items:bottom-left;
   border-sizing:border-box;
   width:50%;
 }

@@ -26,13 +26,13 @@
  }
 
 input {
-  display:inline;
+  display:flex;
   border-radius:2px;
   color:none;
-  box-shadow: 0;
+  box-shadow: none;
   background-color:#f5f5f5;
   align-items:top-right;  
-  padding:0;
+  padding:4px 6px;
   margin:0;
 }
 

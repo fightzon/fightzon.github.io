@@ -99,9 +99,16 @@ footer li {
 }
 
 #calculator {
-  height: 50px;
-  width: 50px;
+  height: 40px;
+  width: 100px;
   broder: 2px ;
   border-radius: 20px;
-  box-shadow: 3px 3px 10px black;
+  box-shadow: 3px 3px 5px black;
+}
+
+p {
+  font-family: sans-serif;
+  justify-content: center;
+  colour:#ff4444 ;
+  
 }

@@ -98,3 +98,14 @@ footer li {
   font-size: 13px;
   color: #444;
 }
+
+#calculator {
+  height:100px;
+  width:100px;
+  border:4px;
+  border-radius:15px;
+  box-shadow:3px 3px 10px black;
+  
+
+  
+}
